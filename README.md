@@ -16,9 +16,13 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-# 📖 OOP school library <a name="about-project"></a>
+# 📖 TDD Project <a name="about-project"></a>
 
-School Library is a CLI app write with ruby.
+TDD Project is a Ruby program, created with the TDD. It implements the tests before implementing the actual code.
+
+- Calculates the factorial of a given number
+- Returns a reversed string of a given string
+- Implement FizzBuzz method
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -32,11 +36,9 @@ School Library is a CLI app write with ruby.
 
 ### Key Features <a name="key-features"></a>
 
-- **CRUD Book**
-- **OOP Design Patterns**
-- **List rents**
-- **refactor your code.**
-- **preserve data.**
+- Factorial of number
+- Reversed String
+- Fizzbuzz method
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -56,7 +58,7 @@ Clone the repo, and install the dependencies
 
 Clone the repository using
 ```
-git clone https://github.com/shayan1234554321/school-library
+https://github.com/Iqbal-Elham/TDD-project
 ```
 
 ### Install
@@ -69,10 +71,10 @@ bundle
 
 ### Usage
 
-To run the project, execute the following command:
+To run the test, execute the following command:
 
 ```sh
-ruby main.rb
+rspec spec
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -109,7 +111,7 @@ ruby main.rb
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/shayan1234554321/school-library/issues).
+Feel free to check the [issues page](https://github.com/Iqbal-Elham/TDD-project/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
