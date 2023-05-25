@@ -27,4 +27,19 @@ describe Solver do
             expect(solver.reverse("ok1ok")).to eql("ko1ko")
         end
     end
+
+    describe "Fizzbuzz" do
+        it "Should return fizz when divisible by 3" do
+            expect(solver.fizzbuzz(3)).to eql("fizz")
+        end
+        it "Should return buzz when divisible by 5" do
+            expect(solver.fizzbuzz(5)).to eql("buzz")
+        end
+        it "Should return fizzbuzz when divisible by both 3 and 5" do
+            expect(solver.fizzbuzz(15)).to eql("fizzbuzz")
+        end
+        it "Should return string when not divisible by any" do
+            expect(solver.fizzbuzz(7)).to eql("7")
+        end
+    end
 end
