@@ -18,4 +18,13 @@ describe Solver do
             expect(solver.factorial(5)).to eql(120)
         end
     end
+
+    describe "Reverse" do
+        it "Should reverse a string" do
+            expect(solver.reverse("khan")).to eql("nahk")
+        end
+        it "Should reverse a string" do
+            expect(solver.reverse("ok1ok")).to eql("ko1ko")
+        end
+    end
 end
